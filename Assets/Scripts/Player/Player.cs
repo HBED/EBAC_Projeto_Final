@@ -6,6 +6,7 @@ public class Player : MonoBehaviour
 {
     public PlayerSM playerSM;
     public Animator animator;
+    public ParticleSystem jetParticles;
 
     public CharacterController characterController;
     public float speed = 2f;
@@ -13,12 +14,15 @@ public class Player : MonoBehaviour
     public float gravity = -9.8f;
     public float jumpSpeed = 15f;
     public float speedRun = 1.5f;
+    public float jetSpeed = 3f;
 
     private float vSpeed = 0f;
     public KeyCode jumpKeyCode = KeyCode.Space;
     public KeyCode runKeyCode = KeyCode.R;
+    public KeyCode jetKeyCode = KeyCode.G;
 
-    // Update is called once per frame
+    int timeJet = 0;
+
     void Update()
     {
         transform.Rotate(0, Input.GetAxis("Horizontal") * turnSpeed * Time.deltaTime, 0);
@@ -52,25 +56,25 @@ public class Player : MonoBehaviour
             }
         }
 
+        if (Input.GetKey(jetKeyCode))
+        {
+            vSpeed += jetSpeed;
+            jetParticles.Play();
+            timeJet = 100;
+        }
+
+        timeJet--;
+
+        if (timeJet <= 0)
+        {
+            jetParticles.Stop();
+        }
+
+
+
         characterController.Move(speedVector * Time.deltaTime);
 
         animator.SetBool("Run", inputAxisVertical != 0);
-
-        if (Input.GetKey(KeyCode.C))
-        {
-            playerSM.stateMachine.SwitchState(PlayerSM.GameStates.IDLE);
-        }
-
-        if (Input.GetKey(KeyCode.V))
-        {
-            playerSM.stateMachine.SwitchState(PlayerSM.GameStates.JUMP);
-        }
-
-        if (Input.GetKey(KeyCode.B))
-        {
-            playerSM.stateMachine.SwitchState(PlayerSM.GameStates.RUN);
-        }
-
 
     }
 
