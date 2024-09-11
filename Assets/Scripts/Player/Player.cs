@@ -7,6 +7,9 @@ public class Player : MonoBehaviour
     public PlayerSM playerSM;
     public Animator animator;
     public ParticleSystem jetParticles;
+    public PlayerAbilityShoot playerAbilityShoot;
+
+    public List<GunBase> gunInvetory;
 
     public CharacterController characterController;
     public float speed = 2f;
@@ -20,6 +23,9 @@ public class Player : MonoBehaviour
     public KeyCode jumpKeyCode = KeyCode.Space;
     public KeyCode runKeyCode = KeyCode.R;
     public KeyCode jetKeyCode = KeyCode.G;
+    public KeyCode gun1KeyCode = KeyCode.Alpha1;
+    public KeyCode gun2KeyCode = KeyCode.Alpha2;
+
 
     int timeJet = 0;
 
@@ -61,6 +67,19 @@ public class Player : MonoBehaviour
             vSpeed += jetSpeed;
             jetParticles.Play();
             timeJet = 100;
+        }
+
+        if (Input.GetKeyDown(gun1KeyCode))
+        {
+            playerAbilityShoot.TradeGun(gunInvetory[0]);
+            Debug.Log("apertou 1");
+            
+        }
+
+        if (Input.GetKeyDown(gun2KeyCode))
+        {
+            Debug.Log("apertou 2");
+            playerAbilityShoot.TradeGun(gunInvetory[1]);
         }
 
         timeJet--;

@@ -25,7 +25,7 @@ public class PlayerSM : MonoBehaviour
 
     private void Update()
     {
-        stateMachine.UpdateState();
+        //stateMachine.UpdateState();
     }
 
 
