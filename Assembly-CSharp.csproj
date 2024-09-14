@@ -56,6 +56,7 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\16.0\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\Enemy\EnemyBase.cs" />
     <Compile Include="Assets\Scripts\Player\SOSetupPlayer.cs" />
     <Compile Include="Assets\Scripts\Ability\ProjectileBase.cs" />
     <Compile Include="Assets\Scripts\Ability\GunShootAngle.cs" />
@@ -70,12 +71,15 @@
     <Compile Include="Assets\Scripts\Ability\GunShootLimit.cs" />
     <Compile Include="Assets\Scripts\Ability\PlayerAbilityShoot.cs" />
     <Compile Include="Assets\Scripts\Player\StateJUMP.cs" />
+    <Compile Include="Assets\Scripts\Animation\AnimationBase.cs" />
+    <Compile Include="Assets\Scripts\UI\UIGunUpdater.cs" />
     <Compile Include="Assets\Scripts\Player\Player.cs" />
     <Compile Include="Assets\Scripts\EBAC\Core\Singleton\Singleton.cs" />
     <Compile Include="Assets\Scripts\EBAC\FSMExample.cs" />
     <Compile Include="Assets\Scripts\Player\StateIDLE.cs" />
     <Compile Include="Assets\Scripts\Player\StateRUN.cs" />
-    <Compile Include="Assets\Scripts\UI\UIGunUpdater.cs" />
+    <Compile Include="Assets\Scripts\Interfaces\IDamageable.cs" />
+    <Compile Include="Assets\Scripts\VFX\FlashColor.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
