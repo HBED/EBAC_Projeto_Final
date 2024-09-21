@@ -6,8 +6,9 @@ using Ebac.StateMachine;
 public class StateJUMP : StateBase
 {
 
-    public override void OnStateEnter(object o = null)
+    public override void OnStateEnter(params object[] objs)
     {
+        base.OnStateEnter(objs);
         Debug.Log("Entrou em JUMP");
     }
 

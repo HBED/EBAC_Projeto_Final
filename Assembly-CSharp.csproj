@@ -58,28 +58,34 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\Enemy\EnemyBase.cs" />
     <Compile Include="Assets\Scripts\Player\SOSetupPlayer.cs" />
+    <Compile Include="Assets\Scripts\Enemy\EnemyShot.cs" />
     <Compile Include="Assets\Scripts\Ability\ProjectileBase.cs" />
     <Compile Include="Assets\Scripts\Ability\GunShootAngle.cs" />
     <Compile Include="Assets\Scripts\Managers\GMStateIntro.cs" />
+    <Compile Include="Assets\Scripts\Enemy\EnemyWalk.cs" />
     <Compile Include="Assets\Scripts\Managers\GameManager.cs" />
     <Compile Include="Assets\Scripts\Ability\GunBase.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerSM.cs" />
     <Compile Include="Assets\Scripts\Ability\PlayerAbilityBase.cs" />
     <Compile Include="Assets\Inputs\Inputs.cs" />
+    <Compile Include="Assets\Scripts\Boss\BossBase.cs" />
     <Compile Include="Assets\Scripts\EBAC\StateMachine.cs" />
     <Compile Include="Assets\Scripts\EBAC\StateBase.cs" />
     <Compile Include="Assets\Scripts\Ability\GunShootLimit.cs" />
     <Compile Include="Assets\Scripts\Ability\PlayerAbilityShoot.cs" />
     <Compile Include="Assets\Scripts\Player\StateJUMP.cs" />
+    <Compile Include="Assets\Scripts\VFX\FlashColor.cs" />
     <Compile Include="Assets\Scripts\Animation\AnimationBase.cs" />
     <Compile Include="Assets\Scripts\UI\UIGunUpdater.cs" />
     <Compile Include="Assets\Scripts\Player\Player.cs" />
+    <Compile Include="Assets\Scripts\Interfaces\IDamageable.cs" />
     <Compile Include="Assets\Scripts\EBAC\Core\Singleton\Singleton.cs" />
     <Compile Include="Assets\Scripts\EBAC\FSMExample.cs" />
     <Compile Include="Assets\Scripts\Player\StateIDLE.cs" />
+    <Compile Include="Assets\Scripts\Boss\BossStates.cs" />
     <Compile Include="Assets\Scripts\Player\StateRUN.cs" />
-    <Compile Include="Assets\Scripts\Interfaces\IDamageable.cs" />
-    <Compile Include="Assets\Scripts\VFX\FlashColor.cs" />
+    <Compile Include="Assets\Scripts\Health\HealthBase.cs" />
+    <Compile Include="Assets\Scripts\Spawn\SpawnBase.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

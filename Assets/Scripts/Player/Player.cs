@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Player : MonoBehaviour
+public class Player : MonoBehaviour, IDamageable
 {
     public PlayerSM playerSM;
     public Animator animator;
@@ -26,6 +26,9 @@ public class Player : MonoBehaviour
     public KeyCode gun1KeyCode = KeyCode.Alpha1;
     public KeyCode gun2KeyCode = KeyCode.Alpha2;
 
+
+    [Header("Flash")]
+    public List<FlashColor> FlashColors;
 
     int timeJet = 0;
 
@@ -97,11 +100,15 @@ public class Player : MonoBehaviour
 
     }
 
+    public void Damage(float damage)
+    {
+        FlashColors.ForEach(i => i.Flash());
+    }
 
-
-
-
-
+    public void Damage(float damage, Vector3 dir)
+    {
+        Damage(damage);
+    }
 }
 
 /*

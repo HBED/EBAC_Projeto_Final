@@ -9,6 +9,9 @@ public class ProjectileBase : MonoBehaviour
     public int damageAmount = 1;
     public float speed = 50f;
 
+    public List<string> tagsToHit;
+
+
     private void Awake()
     {
         Destroy(gameObject, timeToDestroy);
@@ -23,8 +26,26 @@ public class ProjectileBase : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
-        var damageable = collision.transform.GetComponent<IDamageable>();
-        if (damageable != null) damageable.Damage(damageAmount);
+        foreach(var t in tagsToHit)
+        {
+            if(collision.transform.tag == t)
+            {
+                var damageable = collision.transform.GetComponent<IDamageable>();
+                if (damageable != null)
+                {
+                    Vector3 dir = collision.transform.position - transform.position;
+                    Debug.Log("Tiro bem sucedido!");
+                    dir.y = 0;
+                    // Passa, por exemplo, de (0, 0, 35) para (0, 0, 1)
+                    dir = -dir.normalized;
+
+                    damageable.Damage(damageAmount, dir);
+
+                }
+
+                break;
+            }
+        }
 
         Destroy(gameObject);
     }
