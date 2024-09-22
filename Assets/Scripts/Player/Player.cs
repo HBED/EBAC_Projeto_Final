@@ -151,6 +151,7 @@ public class Player : MonoBehaviour//, IDamageable
     public void Damage(HealthBase h)
     {
         FlashColors.ForEach(i => i.Flash());
+        ShakeCamera.Instance.Shake();
         EffectsManager.Instance.ChangeVignette();
     }
 
