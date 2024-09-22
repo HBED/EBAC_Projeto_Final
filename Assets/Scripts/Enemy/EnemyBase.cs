@@ -105,15 +105,16 @@ namespace Enemy
         private void OnCollisionEnter(Collision collision)
         {
             Player p = collision.transform.GetComponent<Player>();
+
             if(p != null)
             {
-                p.Damage(1);
+                p.healthBase.Damage(1);
             }
         }
 
         public virtual void Update()
         {
-            if (lookAtPlayer)
+            if (_player != null &&  lookAtPlayer )
             {
                 transform.LookAt(_player.transform.position);
             }
