@@ -28,6 +28,8 @@ public class HealthBase : MonoBehaviour, IDamageable
     public void ResetLife()
     {
         _currentLife = startLife;
+        UpdateUI();
+        Debug.Log("PRONTO");
     }
 
     protected virtual void Kill()
