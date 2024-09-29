@@ -40,6 +40,7 @@ public class DestructableItemBase : MonoBehaviour
         i.transform.DOScale(0, 1.5f).SetEase(Ease.OutBack).From();
     }
 
+
     private void DropGroupOfCoins()
     {
         StartCoroutine(DropGroupOfCoinsCoroutine());

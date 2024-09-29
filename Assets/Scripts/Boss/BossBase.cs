@@ -108,7 +108,6 @@ namespace Boss
             int attacks = 0;
             while(attacks < attackAmount)
             {
-                Debug.Log("PASSOU AQUI");
                 attacks++;
                 transform.DOScale(1.1f, .1f).SetLoops(2, LoopType.Yoyo);
                 yield return new WaitForSeconds(1);
