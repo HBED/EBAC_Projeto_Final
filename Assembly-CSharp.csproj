@@ -64,6 +64,7 @@
     <Compile Include="Assets\Scripts\Ability\GunShootAngle.cs" />
     <Compile Include="Assets\Scripts\Managers\GMStateIntro.cs" />
     <Compile Include="Assets\Scripts\Item\ItemManager.cs" />
+    <Compile Include="Assets\Scripts\Item\ItemLayoutManager.cs" />
     <Compile Include="Assets\Scripts\Utils\SO\SOUIIntUpdate.cs" />
     <Compile Include="Assets\Scripts\Enemy\EnemyWalk.cs" />
     <Compile Include="Assets\Scripts\Spawn\SpawnBase.cs" />
@@ -91,6 +92,7 @@
     <Compile Include="Assets\Scripts\Animation\AnimationBase.cs" />
     <Compile Include="Assets\Scripts\UI\UIFillUpdater.cs" />
     <Compile Include="Assets\Scripts\Player\Player.cs" />
+    <Compile Include="Assets\Scripts\Chest\ChestBase.cs" />
     <Compile Include="Assets\Scripts\Utils\SO\SOFloat.cs" />
     <Compile Include="Assets\Scripts\Interfaces\IDamageable.cs" />
     <Compile Include="Assets\Scripts\Utils\SO\SOInt.cs" />
@@ -100,8 +102,12 @@
     <Compile Include="Assets\Scripts\Boss\BossStates.cs" />
     <Compile Include="Assets\Scripts\Player\StateRUN.cs" />
     <Compile Include="Assets\Scripts\Item\ItemCollectableCoin.cs" />
-    <Compile Include="Assets\Scripts\Item\ItemLayoutManager.cs" />
     <Compile Include="Assets\Scripts\Actions\ActionLifePack.cs" />
+    <Compile Include="Assets\Scripts\Chest\ChestItemBase.cs" />
+    <Compile Include="Assets\Scripts\Chest\ChestItemCoin.cs" />
+    <Compile Include="Assets\Scripts\Item\DestructableItemBase.cs" />
+    <Compile Include="Assets\Scripts\Item\Magnetic.cs" />
+    <Compile Include="Assets\Scripts\Item\PlayerMagneticTrigger.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
