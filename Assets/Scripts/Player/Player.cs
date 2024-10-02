@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using Ebac.Core.Singleton;
+using Cloth;
 
 public class Player : Singleton<Player> //, IDamageable
 {
@@ -9,14 +10,13 @@ public class Player : Singleton<Player> //, IDamageable
     public Animator animator;
     public List<Collider> colliders;
 
-
     public ParticleSystem jetParticles;
     public PlayerAbilityShoot playerAbilityShoot;
 
     public List<GunBase> gunInvetory;
 
     public CharacterController characterController;
-    public float speed = 2f;
+    public float speed = 20f;
     public float turnSpeed = 2f;
     public float gravity = -9.8f;
     public float jumpSpeed = 15f;
@@ -33,6 +33,9 @@ public class Player : Singleton<Player> //, IDamageable
 
     [Header("Flash")]
     public List<FlashColor> FlashColors;
+
+    [Space]
+    [SerializeField] private ClothChanger _clothChanger;
 
     public HealthBase healthBase;
 
@@ -169,6 +172,32 @@ public class Player : Singleton<Player> //, IDamageable
         {
             transform.position = CheckpointManager.Instance.GetPositionFromLastCheckpoint();
         }
+    }
+
+    public void ChangeSpeed(float speed, float duration)
+    {
+        StartCoroutine(ChangeSpeedCoroutine(speed, duration));
+    }
+
+    IEnumerator ChangeSpeedCoroutine(float localSpeed, float duration)
+    {
+
+        var defaultSpeed = speed;
+        speed = localSpeed;
+        yield return new WaitForSeconds(duration);
+        speed = defaultSpeed;
+    }
+
+    public void ChangeTexture(ClothSetup setup, float duration)
+    {
+        StartCoroutine(ChangeTextureCoroutine(setup, duration));
+    }
+
+    IEnumerator ChangeTextureCoroutine(ClothSetup setup, float duration)
+    {
+        _clothChanger.ChangeTexture(setup);
+        yield return new WaitForSeconds(duration);
+        _clothChanger.ResetTexture();
     }
 }
 
