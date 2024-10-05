@@ -30,6 +30,7 @@ public class Player : Singleton<Player> //, IDamageable
     public KeyCode gun1KeyCode = KeyCode.Alpha1;
     public KeyCode gun2KeyCode = KeyCode.Alpha2;
     private bool _alive = true;
+    private bool _jumping = false;
 
     [Header("Flash")]
     public List<FlashColor> FlashColors;
@@ -64,10 +65,23 @@ public class Player : Singleton<Player> //, IDamageable
         {
             if (characterController.isGrounded)
             {
+                if (_jumping)
+                {
+                    _jumping = false;
+                    animator.SetTrigger("Land");
+                }
+
                 vSpeed = 0;
                 if (Input.GetKeyDown(jumpKeyCode))
                 {
                     vSpeed = jumpSpeed;
+
+                    if (!_jumping)
+                    {
+                        _jumping = true;
+                        animator.SetTrigger("Jump");
+                    }
+
                 }
             }
 

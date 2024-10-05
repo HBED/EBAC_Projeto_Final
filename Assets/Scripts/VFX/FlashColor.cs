@@ -13,6 +13,7 @@ public class FlashColor : MonoBehaviour
     public float duration = .1f;
 
     private Tween _currTween;
+    public string colorParameter = "_EmissionColor";
 
     private void OnValidate()
     {
