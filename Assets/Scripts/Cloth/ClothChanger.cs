@@ -17,6 +17,18 @@ namespace Cloth
         private void Awake()
         {
             _defaultTexture = (Texture2D) mesh.sharedMaterials[0].GetTexture(shaderIdName);
+
+        }
+
+        private void Start()
+        {
+            int idSaveCloth = SaveManager.Instance.Setup.idCloth;
+
+            if (idSaveCloth != 0)
+            {
+                ClothSetup saveSetup = ClothManager.Instance.GetSetupById(idSaveCloth);
+                ChangeTexture(saveSetup);
+            }
         }
 
         [NaughtyAttributes.Button]

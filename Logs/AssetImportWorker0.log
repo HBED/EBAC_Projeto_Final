@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2020.3/release' branch; Version is '2020.3.2f1 (8fd9074bf66c) revision 9427207'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Home Single Language; OS build 22631.4169; Version 2009; 64bit' Language: 'pt' Physical Memory: 7955 MB
+OS: 'Windows 10 Home Single Language; OS build 22631.4317; Version 2009; 64bit' Language: 'pt' Physical Memory: 7955 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
@@ -15,11 +15,11 @@ C:/Users/hugol/OneDrive/Documentos/GitHub/EBAC_Projeto_Final
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-55072
+52413
 Successfully changed project path to: C:/Users/hugol/OneDrive/Documentos/GitHub/EBAC_Projeto_Final
 C:/Users/hugol/OneDrive/Documentos/GitHub/EBAC_Projeto_Final
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 47.27 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 48.30 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.2f1 (8fd9074bf66c)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/Resources/UnitySubsystems
@@ -35,501 +35,55 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56292
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56328
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003023 seconds.
+Registered in 0.001337 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 43.73 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 40.83 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  3.837 seconds
+- Completed reload, in  4.400 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003960 seconds.
+Registered in 0.001382 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 64.34 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 46.62 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.197 seconds
+- Completed reload, in  1.274 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
-Refreshing native plugins compatible for Editor in 0.44 ms, found 0 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
+Refreshing native plugins compatible for Editor in 0.39 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1872 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 90.7 MB.
-System memory in use after: 90.7 MB.
+Unloading 1878 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 91.0 MB.
+System memory in use after: 91.1 MB.
 
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2325.
-Total: 2.142400 ms (FindLiveObjects: 0.218700 ms CreateObjectMapping: 0.048500 ms MarkObjects: 1.776000 ms  DeleteObjects: 0.097400 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/Materials/ANIM_Astronaut_Run.fbx
-  artifactKey: Guid(6259d0c17bdf05a48a8f00516a07a888) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/ANIM_Astronaut_Run.fbx using Guid(6259d0c17bdf05a48a8f00516a07a888) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9be4d9692364777b97f2bc27e38ed2a9') in 0.351701 seconds
-  Import took 0.358362 seconds .
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2333.
+Total: 2.640400 ms (FindLiveObjects: 0.164600 ms CreateObjectMapping: 0.043100 ms MarkObjects: 2.326200 ms  DeleteObjects: 0.103800 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000555 seconds.
-  path: Assets/Materials/Animator_Astronaut_3D.controller
-  artifactKey: Guid(799a49b6bf7557647accc0c70f080ba4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Animator_Astronaut_3D.controller using Guid(799a49b6bf7557647accc0c70f080ba4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa9996711267c291ce91f81daafd2eb1') in 0.032895 seconds
-  Import took 0.039846 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 16.661797 seconds.
-  path: Assets/Art/3D/Astronaut/Animations/Animator_Astronaut_3D 1.controller
-  artifactKey: Guid(49b0cf9932e81ae42a18627a317992c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/3D/Astronaut/Animations/Animator_Astronaut_3D 1.controller using Guid(49b0cf9932e81ae42a18627a317992c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4001078c62fdbe48405aa1151d130716') in 0.012768 seconds
-  Import took 0.018576 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.505547 seconds.
-  path: Assets/Art/3D/Astronaut/Animations/ANIM_Astronaut_Run 1.fbx
-  artifactKey: Guid(e864a2a42fff2044198c312cfe1c3301) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/3D/Astronaut/Animations/ANIM_Astronaut_Run 1.fbx using Guid(e864a2a42fff2044198c312cfe1c3301) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0633b1ad1efd1c04f516149bb7401e8f') in 0.142494 seconds
-  Import took 0.160992 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 87.416162 seconds.
-  path: Assets/Art/3D/Astronaut/Animations/ANIM_Astronaut_Jump_GoingDown.fbx
-  artifactKey: Guid(e0bf573e1a2d12241b8afc0293d0b237) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/3D/Astronaut/Animations/ANIM_Astronaut_Jump_GoingDown.fbx using Guid(e0bf573e1a2d12241b8afc0293d0b237) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4722b5cfe712b12ad14135c688413c67') in 0.166967 seconds
-  Import took 0.173604 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.511608 seconds.
-  path: Assets/Art/3D/Astronaut/Animations/ANIM_Astronaut_Jump.fbx
-  artifactKey: Guid(52457a0215d3be34689f900a72d7d03d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/3D/Astronaut/Animations/ANIM_Astronaut_Jump.fbx using Guid(52457a0215d3be34689f900a72d7d03d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7b91763bf6d079be23acdc7dc86e109') in 0.107702 seconds
-  Import took 0.124197 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 997.233239 seconds.
-  path: Assets/Art/3D/Astronaut/Animations/Animator_Astronaut_3D.controller
-  artifactKey: Guid(d3f81c02a345e3a41a447e4b81d36d30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/3D/Astronaut/Animations/Animator_Astronaut_3D.controller using Guid(d3f81c02a345e3a41a447e4b81d36d30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f168b05bef4e6c35a44f670eaf761169') in 0.045527 seconds
-  Import took 0.052202 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 158.054782 seconds.
-  path: Assets/Art/3D/Astronaut/Animations/ANIM_Astronaut_Jump_Landing.fbx
-  artifactKey: Guid(0ced0c57017530740aa28d54943c30ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/3D/Astronaut/Animations/ANIM_Astronaut_Jump_Landing.fbx using Guid(0ced0c57017530740aa28d54943c30ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a467cfc3579987278a65692b8adb2f7') in 0.150012 seconds
-  Import took 0.154301 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 196.811121 seconds.
-  path: Assets/Scripts/Player/Player.cs
-  artifactKey: Guid(3ab7467f6996270478131b599cc9d206) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Player/Player.cs using Guid(3ab7467f6996270478131b599cc9d206) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5da0cbe519f3ad2fca8eada588a01b1e') in 0.255725 seconds
-  Import took 0.261942 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 550.598529 seconds.
-  path: Assets/Scripts/Player/Player.cs
-  artifactKey: Guid(3ab7467f6996270478131b599cc9d206) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Player/Player.cs using Guid(3ab7467f6996270478131b599cc9d206) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1610aff5939d499840c5de0ac00e2e01') in 0.005135 seconds
-  Import took 0.016659 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.002992 seconds.
-  path: Assets/Scripts/Player/Player.cs
-  artifactKey: Guid(3ab7467f6996270478131b599cc9d206) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Player/Player.cs using Guid(3ab7467f6996270478131b599cc9d206) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1610aff5939d499840c5de0ac00e2e01') in 0.003205 seconds
-  Import took 0.009078 seconds .
+  path: Assets/Scenes/SCN_Art_3D.unity
+  artifactKey: Guid(10e5957b4b33c0b4e902e650fcc5edce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SCN_Art_3D.unity using Guid(10e5957b4b33c0b4e902e650fcc5edce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '790c467234616ff64ccb170160c5b06f') in 0.030182 seconds
+  Import took 0.036142 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002808 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.52 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.257 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.41 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1825 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 103.9 MB.
-System memory in use after: 103.9 MB.
-
-Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2372.
-Total: 7.876700 ms (FindLiveObjects: 0.732700 ms CreateObjectMapping: 0.117300 ms MarkObjects: 6.473800 ms  DeleteObjects: 0.551100 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 1098.496320 seconds.
-  path: Assets/Art/3D/Itens/Chest/Models/MDL_Chest.fbx
-  artifactKey: Guid(ef980562ff710fc439d1f691d6315552) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/3D/Itens/Chest/Models/MDL_Chest.fbx using Guid(ef980562ff710fc439d1f691d6315552) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cee5fc5b2c230ed3d14dda1f1b7b344') in 0.716014 seconds
-  Import took 0.804712 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001391 seconds.
-  path: Assets/Cartoon low poly tree/Meshes/tree10.fbx
-  artifactKey: Guid(ce4021a0c7dc183488fb18d22759bd24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cartoon low poly tree/Meshes/tree10.fbx using Guid(ce4021a0c7dc183488fb18d22759bd24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f301d7c266c3da6fc508fdbf56ea978') in 0.060464 seconds
-  Import took 0.067344 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000779 seconds.
-  path: Assets/Cartoon low poly tree/Meshes/tree05.fbx
-  artifactKey: Guid(b9c3c3d4a1818ab4395d85f342a45261) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cartoon low poly tree/Meshes/tree05.fbx using Guid(b9c3c3d4a1818ab4395d85f342a45261) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67d4ab4f0f8c8df2e40f8013fe870daa') in 0.046128 seconds
-  Import took 0.053517 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001178 seconds.
-  path: Assets/Cartoon low poly tree/Meshes/tree06.fbx
-  artifactKey: Guid(c4a8c9e28bdf4b84ab0db3cdc7532633) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cartoon low poly tree/Meshes/tree06.fbx using Guid(c4a8c9e28bdf4b84ab0db3cdc7532633) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '674d43a677fbc7e3c9547efd0e1e9a26') in 0.038582 seconds
-  Import took 0.044766 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000538 seconds.
-  path: Assets/Cartoon low poly tree/Meshes/tree09.fbx
-  artifactKey: Guid(444bdd942bb77af4e8ab0ae6d0cc7bd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cartoon low poly tree/Meshes/tree09.fbx using Guid(444bdd942bb77af4e8ab0ae6d0cc7bd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '134e71c840d40317e6a00ad21c82275b') in 0.053801 seconds
-  Import took 0.058784 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000490 seconds.
-  path: Assets/Cartoon low poly tree/Meshes/tree02.fbx
-  artifactKey: Guid(96bcc03b913068b40b0561e7b2dccc33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cartoon low poly tree/Meshes/tree02.fbx using Guid(96bcc03b913068b40b0561e7b2dccc33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '978a980521e11949bf6e05be36ed7bc9') in 0.052928 seconds
-  Import took 0.058455 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000447 seconds.
-  path: Assets/Cartoon low poly tree/Meshes/tree08.fbx
-  artifactKey: Guid(ebc860bc75b893d4bb05d41b82e09636) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cartoon low poly tree/Meshes/tree08.fbx using Guid(ebc860bc75b893d4bb05d41b82e09636) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33a605f59475886127f7f146efe40b35') in 0.059763 seconds
-  Import took 0.064108 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000882 seconds.
-  path: Assets/Art/3D/Itens/TotemCheckpoint/Models/MDL_TotemCheckpoint.fbx
-  artifactKey: Guid(4a41d15f268f6404f88dbcefe86b6673) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/3D/Itens/TotemCheckpoint/Models/MDL_TotemCheckpoint.fbx using Guid(4a41d15f268f6404f88dbcefe86b6673) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be392445c181a15ac558b7586227f13d') in 0.043645 seconds
-  Import took 0.048601 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000738 seconds.
-  path: Assets/Cartoon low poly tree/Meshes/tree04.fbx
-  artifactKey: Guid(dc9b74e51e432fd40bfcc4f28fb3a17e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cartoon low poly tree/Meshes/tree04.fbx using Guid(dc9b74e51e432fd40bfcc4f28fb3a17e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6692675c063dd5562d3ade63123b9953') in 0.059817 seconds
-  Import took 0.064314 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000642 seconds.
-  path: Assets/Cartoon low poly tree/Meshes/tree07.fbx
-  artifactKey: Guid(62ef2651489b52541b4c69d5088bcec4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cartoon low poly tree/Meshes/tree07.fbx using Guid(62ef2651489b52541b4c69d5088bcec4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '606cd24a9e2b8f3129fb5e41ba3aded8') in 0.038384 seconds
-  Import took 0.044612 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000748 seconds.
-  path: Assets/Cartoon low poly tree/Meshes/tree01.fbx
-  artifactKey: Guid(ee64176f66e063a40a2d34237d1add35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cartoon low poly tree/Meshes/tree01.fbx using Guid(ee64176f66e063a40a2d34237d1add35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85fede1406d5b7e789830f3e7e7547d3') in 0.044835 seconds
-  Import took 0.050423 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000597 seconds.
-  path: Assets/Cartoon low poly tree/Meshes/tree12.fbx
-  artifactKey: Guid(8acba457351874d469c7a7d0421a33f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cartoon low poly tree/Meshes/tree12.fbx using Guid(8acba457351874d469c7a7d0421a33f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f38f20ddb153c2dd72f35481943bdf5') in 0.044901 seconds
-  Import took 0.050546 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000689 seconds.
-  path: Assets/Cartoon low poly tree/Meshes/tree03.fbx
-  artifactKey: Guid(5863453db05cbdc46a18aed2eb08ffbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cartoon low poly tree/Meshes/tree03.fbx using Guid(5863453db05cbdc46a18aed2eb08ffbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e77f452efeaf1051f970e2aec4b6d49') in 0.038788 seconds
-  Import took 0.043319 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000383 seconds.
-  path: Assets/Cartoon low poly tree/Meshes/tree11.fbx
-  artifactKey: Guid(1969e905fb567c743afbcb1af60feb03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cartoon low poly tree/Meshes/tree11.fbx using Guid(1969e905fb567c743afbcb1af60feb03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32a6a98aea058a87c2acfbfe76d2a52e') in 0.046637 seconds
-  Import took 0.051294 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005170 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.42 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.266 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.59 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1825 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 103.9 MB.
-System memory in use after: 104.0 MB.
-
-Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 2376.
-Total: 3.046800 ms (FindLiveObjects: 0.311000 ms CreateObjectMapping: 0.065800 ms MarkObjects: 2.554200 ms  DeleteObjects: 0.113700 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.009266 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.09 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.263 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.78 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1825 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 104.0 MB.
-System memory in use after: 104.0 MB.
-
-Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2379.
-Total: 5.962500 ms (FindLiveObjects: 0.519200 ms CreateObjectMapping: 0.122600 ms MarkObjects: 4.683000 ms  DeleteObjects: 0.629400 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001656 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.44 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.282 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.38 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1825 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 104.0 MB.
-System memory in use after: 104.1 MB.
-
-Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2382.
-Total: 4.339500 ms (FindLiveObjects: 0.285500 ms CreateObjectMapping: 0.086100 ms MarkObjects: 3.402900 ms  DeleteObjects: 0.563500 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003158 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.46 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.295 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.59 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1825 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 104.0 MB.
-System memory in use after: 104.1 MB.
-
-Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2385.
-Total: 3.671600 ms (FindLiveObjects: 0.339900 ms CreateObjectMapping: 0.089700 ms MarkObjects: 3.104400 ms  DeleteObjects: 0.135600 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001508 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.78 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.200 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.40 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1825 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 104.0 MB.
-System memory in use after: 104.1 MB.
-
-Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2388.
-Total: 3.615700 ms (FindLiveObjects: 0.309700 ms CreateObjectMapping: 0.052700 ms MarkObjects: 2.935500 ms  DeleteObjects: 0.314900 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003949 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.82 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.273 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.42 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1825 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 104.0 MB.
-System memory in use after: 104.1 MB.
-
-Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2391.
-Total: 2.666300 ms (FindLiveObjects: 0.320900 ms CreateObjectMapping: 0.076500 ms MarkObjects: 1.859400 ms  DeleteObjects: 0.408200 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003691 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.58 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.364 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.50 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1825 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 104.0 MB.
-System memory in use after: 104.1 MB.
-
-Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2394.
-Total: 6.702700 ms (FindLiveObjects: 0.365900 ms CreateObjectMapping: 0.089000 ms MarkObjects: 4.508300 ms  DeleteObjects: 1.736200 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 34656.341425 seconds.
-  path: Assets/Prefab/guns/PFB_Projectile.prefab
-  artifactKey: Guid(9e88a1c5f73e9dc4dacf1202ff77f100) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/guns/PFB_Projectile.prefab using Guid(9e88a1c5f73e9dc4dacf1202ff77f100) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad73ffb3c9b5a19871b0951fc95727e9') in 0.180689 seconds
-  Import took 0.189690 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005120 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.61 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.044 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.47 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1825 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 104.3 MB.
-System memory in use after: 104.4 MB.
-
-Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2399.
-Total: 5.466700 ms (FindLiveObjects: 1.013700 ms CreateObjectMapping: 0.229300 ms MarkObjects: 4.123800 ms  DeleteObjects: 0.098500 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001538 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.95 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.532 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.04 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1825 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 104.3 MB.
-System memory in use after: 104.4 MB.
-
-Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2402.
-Total: 6.824800 ms (FindLiveObjects: 0.767100 ms CreateObjectMapping: 0.138200 ms MarkObjects: 5.556400 ms  DeleteObjects: 0.342400 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 266.999197 seconds.
-  path: Assets/Prefab/guns/PFB_Projectile.prefab
-  artifactKey: Guid(9e88a1c5f73e9dc4dacf1202ff77f100) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/guns/PFB_Projectile.prefab using Guid(9e88a1c5f73e9dc4dacf1202ff77f100) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '185015d780a002ccd5c665b3bbf9c9de') in 0.098119 seconds
-  Import took 0.104516 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.033741 seconds.
-  path: Assets/Prefab/guns/PFB_Projectile.prefab
-  artifactKey: Guid(9e88a1c5f73e9dc4dacf1202ff77f100) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/guns/PFB_Projectile.prefab using Guid(9e88a1c5f73e9dc4dacf1202ff77f100) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '185015d780a002ccd5c665b3bbf9c9de') in 0.022329 seconds
-  Import took 0.032139 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005587 seconds.
+Registered in 0.001467 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.48 ms, found 0 plugins.
@@ -538,38 +92,493 @@ Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.019 seconds
+- Completed reload, in  1.260 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.42 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 1.02 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1825 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 104.3 MB.
-System memory in use after: 104.4 MB.
+Unloading 1831 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 87.1 MB.
+System memory in use after: 87.2 MB.
 
-Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2406.
-Total: 4.240500 ms (FindLiveObjects: 0.313300 ms CreateObjectMapping: 0.040600 ms MarkObjects: 3.559600 ms  DeleteObjects: 0.325500 ms)
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2336.
+Total: 3.854300 ms (FindLiveObjects: 0.413900 ms CreateObjectMapping: 0.067100 ms MarkObjects: 3.241000 ms  DeleteObjects: 0.129300 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001584 seconds.
+Registered in 0.002189 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.44 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.68 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.970 seconds
+- Completed reload, in  1.098 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.41 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1825 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 104.3 MB.
-System memory in use after: 104.3 MB.
+Unloading 1831 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 87.1 MB.
+System memory in use after: 87.2 MB.
 
-Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2409.
-Total: 4.060300 ms (FindLiveObjects: 0.318300 ms CreateObjectMapping: 0.070100 ms MarkObjects: 3.441500 ms  DeleteObjects: 0.229400 ms)
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2339.
+Total: 2.246700 ms (FindLiveObjects: 0.295600 ms CreateObjectMapping: 0.060500 ms MarkObjects: 1.814100 ms  DeleteObjects: 0.074900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 426.424442 seconds.
+  path: Assets/StreamingAssets/save.txt
+  artifactKey: Guid(ce901c0bb1cd4fd479468c0aa66cc341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreamingAssets/save.txt using Guid(ce901c0bb1cd4fd479468c0aa66cc341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.057948 seconds
+  ERROR: Build asset version error: assets/streamingassets/save.txt in SourceAssetDB has modification time of '2024-10-13T15:19:29.6055013Z' while content on disk has modification time of '2024-10-13T19:19:24.5286046Z'
+  Import took 0.063291 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.029028 seconds.
+  path: Assets/StreamingAssets/save.txt
+  artifactKey: Guid(ce901c0bb1cd4fd479468c0aa66cc341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreamingAssets/save.txt using Guid(ce901c0bb1cd4fd479468c0aa66cc341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000885 seconds
+  ERROR: Build asset version error: assets/streamingassets/save.txt in SourceAssetDB has modification time of '2024-10-13T15:19:29.6055013Z' while content on disk has modification time of '2024-10-13T19:19:24.5286046Z'
+  Import took 0.005491 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.030783 seconds.
+  path: Assets/StreamingAssets/save.txt
+  artifactKey: Guid(ce901c0bb1cd4fd479468c0aa66cc341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreamingAssets/save.txt using Guid(ce901c0bb1cd4fd479468c0aa66cc341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000850 seconds
+  ERROR: Build asset version error: assets/streamingassets/save.txt in SourceAssetDB has modification time of '2024-10-13T15:19:29.6055013Z' while content on disk has modification time of '2024-10-13T19:19:24.5286046Z'
+  Import took 0.005084 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.023655 seconds.
+  path: Assets/StreamingAssets/save.txt
+  artifactKey: Guid(ce901c0bb1cd4fd479468c0aa66cc341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreamingAssets/save.txt using Guid(ce901c0bb1cd4fd479468c0aa66cc341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000817 seconds
+  ERROR: Build asset version error: assets/streamingassets/save.txt in SourceAssetDB has modification time of '2024-10-13T15:19:29.6055013Z' while content on disk has modification time of '2024-10-13T19:19:24.5286046Z'
+  Import took 0.005235 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.030372 seconds.
+  path: Assets/StreamingAssets/save.txt
+  artifactKey: Guid(ce901c0bb1cd4fd479468c0aa66cc341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreamingAssets/save.txt using Guid(ce901c0bb1cd4fd479468c0aa66cc341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001447 seconds
+  ERROR: Build asset version error: assets/streamingassets/save.txt in SourceAssetDB has modification time of '2024-10-13T15:19:29.6055013Z' while content on disk has modification time of '2024-10-13T19:19:24.5286046Z'
+  Import took 0.006077 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.023346 seconds.
+  path: Assets/StreamingAssets/save.txt
+  artifactKey: Guid(ce901c0bb1cd4fd479468c0aa66cc341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreamingAssets/save.txt using Guid(ce901c0bb1cd4fd479468c0aa66cc341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001037 seconds
+  ERROR: Build asset version error: assets/streamingassets/save.txt in SourceAssetDB has modification time of '2024-10-13T15:19:29.6055013Z' while content on disk has modification time of '2024-10-13T19:19:24.5286046Z'
+  Import took 0.005698 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.023656 seconds.
+  path: Assets/StreamingAssets/save.txt
+  artifactKey: Guid(ce901c0bb1cd4fd479468c0aa66cc341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreamingAssets/save.txt using Guid(ce901c0bb1cd4fd479468c0aa66cc341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001065 seconds
+  ERROR: Build asset version error: assets/streamingassets/save.txt in SourceAssetDB has modification time of '2024-10-13T15:19:29.6055013Z' while content on disk has modification time of '2024-10-13T19:19:24.5286046Z'
+  Import took 0.005456 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.023626 seconds.
+  path: Assets/StreamingAssets/save.txt
+  artifactKey: Guid(ce901c0bb1cd4fd479468c0aa66cc341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreamingAssets/save.txt using Guid(ce901c0bb1cd4fd479468c0aa66cc341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001179 seconds
+  ERROR: Build asset version error: assets/streamingassets/save.txt in SourceAssetDB has modification time of '2024-10-13T15:19:29.6055013Z' while content on disk has modification time of '2024-10-13T19:19:24.5286046Z'
+  Import took 0.005526 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.023461 seconds.
+  path: Assets/StreamingAssets/save.txt
+  artifactKey: Guid(ce901c0bb1cd4fd479468c0aa66cc341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreamingAssets/save.txt using Guid(ce901c0bb1cd4fd479468c0aa66cc341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001010 seconds
+  ERROR: Build asset version error: assets/streamingassets/save.txt in SourceAssetDB has modification time of '2024-10-13T15:19:29.6055013Z' while content on disk has modification time of '2024-10-13T19:19:24.5286046Z'
+  Import took 0.005894 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.024321 seconds.
+  path: Assets/StreamingAssets/save.txt
+  artifactKey: Guid(ce901c0bb1cd4fd479468c0aa66cc341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreamingAssets/save.txt using Guid(ce901c0bb1cd4fd479468c0aa66cc341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001031 seconds
+  ERROR: Build asset version error: assets/streamingassets/save.txt in SourceAssetDB has modification time of '2024-10-13T15:19:29.6055013Z' while content on disk has modification time of '2024-10-13T19:19:24.5286046Z'
+  Import took 0.005193 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.022639 seconds.
+  path: Assets/StreamingAssets/save.txt
+  artifactKey: Guid(ce901c0bb1cd4fd479468c0aa66cc341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreamingAssets/save.txt using Guid(ce901c0bb1cd4fd479468c0aa66cc341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001088 seconds
+  ERROR: Build asset version error: assets/streamingassets/save.txt in SourceAssetDB has modification time of '2024-10-13T15:19:29.6055013Z' while content on disk has modification time of '2024-10-13T19:19:24.5286046Z'
+  Import took 0.006190 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.036483 seconds.
+  path: Assets/StreamingAssets/save.txt
+  artifactKey: Guid(ce901c0bb1cd4fd479468c0aa66cc341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreamingAssets/save.txt using Guid(ce901c0bb1cd4fd479468c0aa66cc341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000794 seconds
+  ERROR: Build asset version error: assets/streamingassets/save.txt in SourceAssetDB has modification time of '2024-10-13T15:19:29.6055013Z' while content on disk has modification time of '2024-10-13T19:19:24.5286046Z'
+  Import took 0.004275 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.022107 seconds.
+  path: Assets/StreamingAssets/save.txt
+  artifactKey: Guid(ce901c0bb1cd4fd479468c0aa66cc341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreamingAssets/save.txt using Guid(ce901c0bb1cd4fd479468c0aa66cc341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000929 seconds
+  ERROR: Build asset version error: assets/streamingassets/save.txt in SourceAssetDB has modification time of '2024-10-13T15:19:29.6055013Z' while content on disk has modification time of '2024-10-13T19:19:24.5286046Z'
+  Import took 0.004576 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.027219 seconds.
+  path: Assets/StreamingAssets/save.txt
+  artifactKey: Guid(ce901c0bb1cd4fd479468c0aa66cc341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreamingAssets/save.txt using Guid(ce901c0bb1cd4fd479468c0aa66cc341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000870 seconds
+  ERROR: Build asset version error: assets/streamingassets/save.txt in SourceAssetDB has modification time of '2024-10-13T15:19:29.6055013Z' while content on disk has modification time of '2024-10-13T19:19:24.5286046Z'
+  Import took 0.005196 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.019483 seconds.
+  path: Assets/StreamingAssets/save.txt
+  artifactKey: Guid(ce901c0bb1cd4fd479468c0aa66cc341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreamingAssets/save.txt using Guid(ce901c0bb1cd4fd479468c0aa66cc341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000931 seconds
+  ERROR: Build asset version error: assets/streamingassets/save.txt in SourceAssetDB has modification time of '2024-10-13T15:19:29.6055013Z' while content on disk has modification time of '2024-10-13T19:19:24.5286046Z'
+  Import took 0.005488 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.025923 seconds.
+  path: Assets/StreamingAssets/save.txt
+  artifactKey: Guid(ce901c0bb1cd4fd479468c0aa66cc341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreamingAssets/save.txt using Guid(ce901c0bb1cd4fd479468c0aa66cc341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000897 seconds
+  ERROR: Build asset version error: assets/streamingassets/save.txt in SourceAssetDB has modification time of '2024-10-13T15:19:29.6055013Z' while content on disk has modification time of '2024-10-13T19:19:24.5286046Z'
+  Import took 0.005093 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.026938 seconds.
+  path: Assets/StreamingAssets/save.txt
+  artifactKey: Guid(ce901c0bb1cd4fd479468c0aa66cc341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreamingAssets/save.txt using Guid(ce901c0bb1cd4fd479468c0aa66cc341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000881 seconds
+  ERROR: Build asset version error: assets/streamingassets/save.txt in SourceAssetDB has modification time of '2024-10-13T15:19:29.6055013Z' while content on disk has modification time of '2024-10-13T19:19:24.5286046Z'
+  Import took 0.005837 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.023374 seconds.
+  path: Assets/StreamingAssets/save.txt
+  artifactKey: Guid(ce901c0bb1cd4fd479468c0aa66cc341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreamingAssets/save.txt using Guid(ce901c0bb1cd4fd479468c0aa66cc341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000963 seconds
+  ERROR: Build asset version error: assets/streamingassets/save.txt in SourceAssetDB has modification time of '2024-10-13T15:19:29.6055013Z' while content on disk has modification time of '2024-10-13T19:19:24.5286046Z'
+  Import took 0.006141 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.023337 seconds.
+  path: Assets/StreamingAssets/save.txt
+  artifactKey: Guid(ce901c0bb1cd4fd479468c0aa66cc341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreamingAssets/save.txt using Guid(ce901c0bb1cd4fd479468c0aa66cc341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001300 seconds
+  ERROR: Build asset version error: assets/streamingassets/save.txt in SourceAssetDB has modification time of '2024-10-13T15:19:29.6055013Z' while content on disk has modification time of '2024-10-13T19:19:24.5286046Z'
+  Import took 0.007843 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.020744 seconds.
+  path: Assets/StreamingAssets/save.txt
+  artifactKey: Guid(ce901c0bb1cd4fd479468c0aa66cc341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreamingAssets/save.txt using Guid(ce901c0bb1cd4fd479468c0aa66cc341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000822 seconds
+  ERROR: Build asset version error: assets/streamingassets/save.txt in SourceAssetDB has modification time of '2024-10-13T15:19:29.6055013Z' while content on disk has modification time of '2024-10-13T19:19:24.5286046Z'
+  Import took 0.005514 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.023343 seconds.
+  path: Assets/StreamingAssets/save.txt
+  artifactKey: Guid(ce901c0bb1cd4fd479468c0aa66cc341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreamingAssets/save.txt using Guid(ce901c0bb1cd4fd479468c0aa66cc341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000833 seconds
+  ERROR: Build asset version error: assets/streamingassets/save.txt in SourceAssetDB has modification time of '2024-10-13T15:19:29.6055013Z' while content on disk has modification time of '2024-10-13T19:19:24.5286046Z'
+  Import took 0.004510 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.019338 seconds.
+  path: Assets/StreamingAssets/save.txt
+  artifactKey: Guid(ce901c0bb1cd4fd479468c0aa66cc341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreamingAssets/save.txt using Guid(ce901c0bb1cd4fd479468c0aa66cc341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000776 seconds
+  ERROR: Build asset version error: assets/streamingassets/save.txt in SourceAssetDB has modification time of '2024-10-13T15:19:29.6055013Z' while content on disk has modification time of '2024-10-13T19:19:24.5286046Z'
+  Import took 0.005068 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.019749 seconds.
+  path: Assets/StreamingAssets/save.txt
+  artifactKey: Guid(ce901c0bb1cd4fd479468c0aa66cc341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreamingAssets/save.txt using Guid(ce901c0bb1cd4fd479468c0aa66cc341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000813 seconds
+  ERROR: Build asset version error: assets/streamingassets/save.txt in SourceAssetDB has modification time of '2024-10-13T15:19:29.6055013Z' while content on disk has modification time of '2024-10-13T19:19:24.5286046Z'
+  Import took 0.005023 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.021707 seconds.
+  path: Assets/StreamingAssets/save.txt
+  artifactKey: Guid(ce901c0bb1cd4fd479468c0aa66cc341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreamingAssets/save.txt using Guid(ce901c0bb1cd4fd479468c0aa66cc341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000884 seconds
+  ERROR: Build asset version error: assets/streamingassets/save.txt in SourceAssetDB has modification time of '2024-10-13T15:19:29.6055013Z' while content on disk has modification time of '2024-10-13T19:19:24.5286046Z'
+  Import took 0.004641 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.019568 seconds.
+  path: Assets/StreamingAssets/save.txt
+  artifactKey: Guid(ce901c0bb1cd4fd479468c0aa66cc341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreamingAssets/save.txt using Guid(ce901c0bb1cd4fd479468c0aa66cc341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000734 seconds
+  ERROR: Build asset version error: assets/streamingassets/save.txt in SourceAssetDB has modification time of '2024-10-13T15:19:29.6055013Z' while content on disk has modification time of '2024-10-13T19:19:24.5286046Z'
+  Import took 0.004835 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.022967 seconds.
+  path: Assets/StreamingAssets/save.txt
+  artifactKey: Guid(ce901c0bb1cd4fd479468c0aa66cc341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreamingAssets/save.txt using Guid(ce901c0bb1cd4fd479468c0aa66cc341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000897 seconds
+  ERROR: Build asset version error: assets/streamingassets/save.txt in SourceAssetDB has modification time of '2024-10-13T15:19:29.6055013Z' while content on disk has modification time of '2024-10-13T19:19:24.5286046Z'
+  Import took 0.005822 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.019852 seconds.
+  path: Assets/StreamingAssets/save.txt
+  artifactKey: Guid(ce901c0bb1cd4fd479468c0aa66cc341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreamingAssets/save.txt using Guid(ce901c0bb1cd4fd479468c0aa66cc341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000978 seconds
+  ERROR: Build asset version error: assets/streamingassets/save.txt in SourceAssetDB has modification time of '2024-10-13T15:19:29.6055013Z' while content on disk has modification time of '2024-10-13T19:19:24.5286046Z'
+  Import took 0.006270 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.019245 seconds.
+  path: Assets/StreamingAssets/save.txt
+  artifactKey: Guid(ce901c0bb1cd4fd479468c0aa66cc341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreamingAssets/save.txt using Guid(ce901c0bb1cd4fd479468c0aa66cc341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000941 seconds
+  ERROR: Build asset version error: assets/streamingassets/save.txt in SourceAssetDB has modification time of '2024-10-13T15:19:29.6055013Z' while content on disk has modification time of '2024-10-13T19:19:24.5286046Z'
+  Import took 0.005026 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.025364 seconds.
+  path: Assets/StreamingAssets/save.txt
+  artifactKey: Guid(ce901c0bb1cd4fd479468c0aa66cc341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreamingAssets/save.txt using Guid(ce901c0bb1cd4fd479468c0aa66cc341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000890 seconds
+  ERROR: Build asset version error: assets/streamingassets/save.txt in SourceAssetDB has modification time of '2024-10-13T15:19:29.6055013Z' while content on disk has modification time of '2024-10-13T19:19:24.5286046Z'
+  Import took 0.005589 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.019170 seconds.
+  path: Assets/StreamingAssets/save.txt
+  artifactKey: Guid(ce901c0bb1cd4fd479468c0aa66cc341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreamingAssets/save.txt using Guid(ce901c0bb1cd4fd479468c0aa66cc341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001030 seconds
+  ERROR: Build asset version error: assets/streamingassets/save.txt in SourceAssetDB has modification time of '2024-10-13T15:19:29.6055013Z' while content on disk has modification time of '2024-10-13T19:19:24.5286046Z'
+  Import took 0.005503 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.022729 seconds.
+  path: Assets/StreamingAssets/save.txt
+  artifactKey: Guid(ce901c0bb1cd4fd479468c0aa66cc341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreamingAssets/save.txt using Guid(ce901c0bb1cd4fd479468c0aa66cc341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000781 seconds
+  ERROR: Build asset version error: assets/streamingassets/save.txt in SourceAssetDB has modification time of '2024-10-13T15:19:29.6055013Z' while content on disk has modification time of '2024-10-13T19:19:24.5286046Z'
+  Import took 0.004708 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.018765 seconds.
+  path: Assets/StreamingAssets/save.txt
+  artifactKey: Guid(ce901c0bb1cd4fd479468c0aa66cc341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreamingAssets/save.txt using Guid(ce901c0bb1cd4fd479468c0aa66cc341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000880 seconds
+  ERROR: Build asset version error: assets/streamingassets/save.txt in SourceAssetDB has modification time of '2024-10-13T15:19:29.6055013Z' while content on disk has modification time of '2024-10-13T19:19:24.5286046Z'
+  Import took 0.005519 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.018547 seconds.
+  path: Assets/StreamingAssets/save.txt
+  artifactKey: Guid(ce901c0bb1cd4fd479468c0aa66cc341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreamingAssets/save.txt using Guid(ce901c0bb1cd4fd479468c0aa66cc341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000823 seconds
+  ERROR: Build asset version error: assets/streamingassets/save.txt in SourceAssetDB has modification time of '2024-10-13T15:19:29.6055013Z' while content on disk has modification time of '2024-10-13T19:19:24.5286046Z'
+  Import took 0.005320 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.021924 seconds.
+  path: Assets/StreamingAssets/save.txt
+  artifactKey: Guid(ce901c0bb1cd4fd479468c0aa66cc341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreamingAssets/save.txt using Guid(ce901c0bb1cd4fd479468c0aa66cc341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000783 seconds
+  ERROR: Build asset version error: assets/streamingassets/save.txt in SourceAssetDB has modification time of '2024-10-13T15:19:29.6055013Z' while content on disk has modification time of '2024-10-13T19:19:24.5286046Z'
+  Import took 0.005301 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.020040 seconds.
+  path: Assets/StreamingAssets/save.txt
+  artifactKey: Guid(ce901c0bb1cd4fd479468c0aa66cc341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreamingAssets/save.txt using Guid(ce901c0bb1cd4fd479468c0aa66cc341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000794 seconds
+  ERROR: Build asset version error: assets/streamingassets/save.txt in SourceAssetDB has modification time of '2024-10-13T15:19:29.6055013Z' while content on disk has modification time of '2024-10-13T19:19:24.5286046Z'
+  Import took 0.005294 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.033486 seconds.
+  path: Assets/StreamingAssets/save.txt
+  artifactKey: Guid(ce901c0bb1cd4fd479468c0aa66cc341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreamingAssets/save.txt using Guid(ce901c0bb1cd4fd479468c0aa66cc341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000661 seconds
+  ERROR: Build asset version error: assets/streamingassets/save.txt in SourceAssetDB has modification time of '2024-10-13T15:19:29.6055013Z' while content on disk has modification time of '2024-10-13T19:19:24.5286046Z'
+  Import took 0.004079 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.027345 seconds.
+  path: Assets/StreamingAssets/save.txt
+  artifactKey: Guid(ce901c0bb1cd4fd479468c0aa66cc341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreamingAssets/save.txt using Guid(ce901c0bb1cd4fd479468c0aa66cc341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001344 seconds
+  ERROR: Build asset version error: assets/streamingassets/save.txt in SourceAssetDB has modification time of '2024-10-13T15:19:29.6055013Z' while content on disk has modification time of '2024-10-13T19:19:24.5286046Z'
+  Import took 0.006050 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.019522 seconds.
+  path: Assets/StreamingAssets/save.txt
+  artifactKey: Guid(ce901c0bb1cd4fd479468c0aa66cc341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreamingAssets/save.txt using Guid(ce901c0bb1cd4fd479468c0aa66cc341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000912 seconds
+  ERROR: Build asset version error: assets/streamingassets/save.txt in SourceAssetDB has modification time of '2024-10-13T15:19:29.6055013Z' while content on disk has modification time of '2024-10-13T19:19:24.5286046Z'
+  Import took 0.005859 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.024837 seconds.
+  path: Assets/StreamingAssets/save.txt
+  artifactKey: Guid(ce901c0bb1cd4fd479468c0aa66cc341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreamingAssets/save.txt using Guid(ce901c0bb1cd4fd479468c0aa66cc341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000875 seconds
+  ERROR: Build asset version error: assets/streamingassets/save.txt in SourceAssetDB has modification time of '2024-10-13T15:19:29.6055013Z' while content on disk has modification time of '2024-10-13T19:19:24.5286046Z'
+  Import took 0.004885 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.024556 seconds.
+  path: Assets/StreamingAssets/save.txt
+  artifactKey: Guid(ce901c0bb1cd4fd479468c0aa66cc341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreamingAssets/save.txt using Guid(ce901c0bb1cd4fd479468c0aa66cc341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000880 seconds
+  ERROR: Build asset version error: assets/streamingassets/save.txt in SourceAssetDB has modification time of '2024-10-13T15:19:29.6055013Z' while content on disk has modification time of '2024-10-13T19:19:24.5286046Z'
+  Import took 0.005865 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.023425 seconds.
+  path: Assets/StreamingAssets/save.txt
+  artifactKey: Guid(ce901c0bb1cd4fd479468c0aa66cc341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreamingAssets/save.txt using Guid(ce901c0bb1cd4fd479468c0aa66cc341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000968 seconds
+  ERROR: Build asset version error: assets/streamingassets/save.txt in SourceAssetDB has modification time of '2024-10-13T15:19:29.6055013Z' while content on disk has modification time of '2024-10-13T19:19:24.5286046Z'
+  Import took 0.005698 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.020055 seconds.
+  path: Assets/StreamingAssets/save.txt
+  artifactKey: Guid(ce901c0bb1cd4fd479468c0aa66cc341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreamingAssets/save.txt using Guid(ce901c0bb1cd4fd479468c0aa66cc341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000804 seconds
+  ERROR: Build asset version error: assets/streamingassets/save.txt in SourceAssetDB has modification time of '2024-10-13T15:19:29.6055013Z' while content on disk has modification time of '2024-10-13T19:19:24.5286046Z'
+  Import took 0.006039 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.023491 seconds.
+  path: Assets/StreamingAssets/save.txt
+  artifactKey: Guid(ce901c0bb1cd4fd479468c0aa66cc341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreamingAssets/save.txt using Guid(ce901c0bb1cd4fd479468c0aa66cc341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001459 seconds
+  ERROR: Build asset version error: assets/streamingassets/save.txt in SourceAssetDB has modification time of '2024-10-13T15:19:29.6055013Z' while content on disk has modification time of '2024-10-13T19:19:24.5286046Z'
+  Import took 0.005921 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.019776 seconds.
+  path: Assets/StreamingAssets/save.txt
+  artifactKey: Guid(ce901c0bb1cd4fd479468c0aa66cc341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreamingAssets/save.txt using Guid(ce901c0bb1cd4fd479468c0aa66cc341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000853 seconds
+  ERROR: Build asset version error: assets/streamingassets/save.txt in SourceAssetDB has modification time of '2024-10-13T15:19:29.6055013Z' while content on disk has modification time of '2024-10-13T19:19:24.5286046Z'
+  Import took 0.005027 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.025310 seconds.
+  path: Assets/StreamingAssets/save.txt
+  artifactKey: Guid(ce901c0bb1cd4fd479468c0aa66cc341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreamingAssets/save.txt using Guid(ce901c0bb1cd4fd479468c0aa66cc341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001075 seconds
+  ERROR: Build asset version error: assets/streamingassets/save.txt in SourceAssetDB has modification time of '2024-10-13T15:19:29.6055013Z' while content on disk has modification time of '2024-10-13T19:19:24.5286046Z'
+  Import took 0.005865 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.018520 seconds.
+  path: Assets/StreamingAssets/save.txt
+  artifactKey: Guid(ce901c0bb1cd4fd479468c0aa66cc341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreamingAssets/save.txt using Guid(ce901c0bb1cd4fd479468c0aa66cc341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000910 seconds
+  ERROR: Build asset version error: assets/streamingassets/save.txt in SourceAssetDB has modification time of '2024-10-13T15:19:29.6055013Z' while content on disk has modification time of '2024-10-13T19:19:24.5286046Z'
+  Import took 0.006618 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.031241 seconds.
+  path: Assets/StreamingAssets/save.txt
+  artifactKey: Guid(ce901c0bb1cd4fd479468c0aa66cc341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreamingAssets/save.txt using Guid(ce901c0bb1cd4fd479468c0aa66cc341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000981 seconds
+  ERROR: Build asset version error: assets/streamingassets/save.txt in SourceAssetDB has modification time of '2024-10-13T15:19:29.6055013Z' while content on disk has modification time of '2024-10-13T19:19:24.5286046Z'
+  Import took 0.005931 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.021545 seconds.
+  path: Assets/StreamingAssets/save.txt
+  artifactKey: Guid(ce901c0bb1cd4fd479468c0aa66cc341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreamingAssets/save.txt using Guid(ce901c0bb1cd4fd479468c0aa66cc341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000872 seconds
+  ERROR: Build asset version error: assets/streamingassets/save.txt in SourceAssetDB has modification time of '2024-10-13T15:19:29.6055013Z' while content on disk has modification time of '2024-10-13T19:19:24.5286046Z'
+  Import took 0.005849 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001766 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.42 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.078 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.46 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1831 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 87.1 MB.
+System memory in use after: 87.2 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2342.
+Total: 2.423000 ms (FindLiveObjects: 0.281600 ms CreateObjectMapping: 0.061500 ms MarkObjects: 1.997500 ms  DeleteObjects: 0.080500 ms)
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

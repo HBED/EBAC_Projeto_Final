@@ -56,6 +56,7 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\16.0\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\Utils\PlayLevel.cs" />
     <Compile Include="Assets\Scripts\Enemy\EnemyBase.cs" />
     <Compile Include="Assets\Scripts\Player\SOSetupPlayer.cs" />
     <Compile Include="Assets\Scripts\Effects\EffectsManager.cs" />
@@ -67,8 +68,12 @@
     <Compile Include="Assets\Scripts\Item\ItemLayoutManager.cs" />
     <Compile Include="Assets\Scripts\Utils\SO\SOUIIntUpdate.cs" />
     <Compile Include="Assets\Scripts\Chest\ChestItemBase.cs" />
+    <Compile Include="Assets\Scripts\Cloth\ClothItemStrong.cs" />
     <Compile Include="Assets\Scripts\Enemy\EnemyWalk.cs" />
     <Compile Include="Assets\Scripts\Spawn\SpawnBase.cs" />
+    <Compile Include="Assets\Scripts\Utils\LoadScene.cs" />
+    <Compile Include="Assets\Scripts\Managers\SaveManager.cs" />
+    <Compile Include="Assets\Scripts\EndGame\EndGame.cs" />
     <Compile Include="Assets\Scripts\Managers\GameManager.cs" />
     <Compile Include="Assets\Scripts\Ability\GunBase.cs" />
     <Compile Include="Assets\Scripts\Utils\SO\SOBool.cs" />
@@ -76,9 +81,11 @@
     <Compile Include="Assets\Scripts\Ability\PlayerAbilityBase.cs" />
     <Compile Include="Assets\Inputs\Inputs.cs" />
     <Compile Include="Assets\Scripts\Spawn\CheckpointManager.cs" />
+    <Compile Include="Assets\Scripts\Cloth\ClothItenSpeed.cs" />
     <Compile Include="Assets\Scripts\Utils\SO\SOString.cs" />
     <Compile Include="Assets\Scripts\Utils\SO\SOUIBoolUpdate.cs" />
     <Compile Include="Assets\Scripts\Boss\BossBase.cs" />
+    <Compile Include="Assets\Scripts\Utils\SaveProcess.cs" />
     <Compile Include="Assets\Scripts\EBAC\StateMachine.cs" />
     <Compile Include="Assets\Scripts\EBAC\StateBase.cs" />
     <Compile Include="Assets\Scripts\Ability\GunShootLimit.cs" />
@@ -97,7 +104,9 @@
     <Compile Include="Assets\Scripts\Player\Player.cs" />
     <Compile Include="Assets\Scripts\Item\PlayerMagneticTrigger.cs" />
     <Compile Include="Assets\Scripts\Chest\ChestBase.cs" />
+    <Compile Include="Assets\Scripts\MenuButtonsManager.cs" />
     <Compile Include="Assets\Scripts\Utils\SO\SOFloat.cs" />
+    <Compile Include="Assets\Scripts\Cloth\ClothChanger.cs" />
     <Compile Include="Assets\Scripts\Interfaces\IDamageable.cs" />
     <Compile Include="Assets\Scripts\Utils\SO\SOInt.cs" />
     <Compile Include="Assets\Scripts\EBAC\Core\Singleton\Singleton.cs" />
@@ -105,14 +114,11 @@
     <Compile Include="Assets\Scripts\Chest\ChestItemCoin.cs" />
     <Compile Include="Assets\Scripts\Player\StateIDLE.cs" />
     <Compile Include="Assets\Scripts\Boss\BossStates.cs" />
+    <Compile Include="Assets\Scripts\Cloth\ClothItemBase.cs" />
     <Compile Include="Assets\Scripts\Player\StateRUN.cs" />
     <Compile Include="Assets\Scripts\Item\ItemCollectableCoin.cs" />
-    <Compile Include="Assets\Scripts\Actions\ActionLifePack.cs" />
-    <Compile Include="Assets\Scripts\Cloth\ClothChanger.cs" />
     <Compile Include="Assets\Scripts\Cloth\ClothManager.cs" />
-    <Compile Include="Assets\Scripts\Cloth\ClothItemBase.cs" />
-    <Compile Include="Assets\Scripts\Cloth\ClothItenSpeed.cs" />
-    <Compile Include="Assets\Scripts\Cloth\ClothItemStrong.cs" />
+    <Compile Include="Assets\Scripts\Actions\ActionLifePack.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

@@ -7,7 +7,7 @@ public class HealthBase : MonoBehaviour, IDamageable
 {
     public float startLife = 10f;
     public bool destroyOnKill = false;
-    [SerializeField] private float _currentLife;
+    public float currentLife;
 
     public Action<HealthBase> OnDamage;
     public Action<HealthBase> OnKill;
@@ -24,14 +24,22 @@ public class HealthBase : MonoBehaviour, IDamageable
 
     public void Init()
     {
-        ResetLife();
+        float saveLife = SaveManager.Instance.Setup.health;
+
+        if (saveLife > 0)
+        {
+            currentLife = saveLife;
+        }
+        else
+        {
+            ResetLife();
+        }
+        UpdateUI();
     }
 
     public void ResetLife()
     {
-        _currentLife = startLife;
-        UpdateUI();
-        Debug.Log("PRONTO");
+        currentLife = startLife;
     }
 
     protected virtual void Kill()
@@ -50,9 +58,9 @@ public class HealthBase : MonoBehaviour, IDamageable
     public void Damage(float f)
     {
 
-        _currentLife -= f * damageMultiply;
+        currentLife -= f * damageMultiply;
 
-        if (_currentLife <= 0)
+        if (currentLife <= 0)
         {
             Kill();
         }
@@ -69,7 +77,7 @@ public class HealthBase : MonoBehaviour, IDamageable
     {
         if(uiFillUpdater != null)
         {
-            uiFillUpdater.ForEach(i => i.UpdateValue((float)_currentLife/startLife));
+            uiFillUpdater.ForEach(i => i.UpdateValue((float)currentLife/startLife));
         }
     }
 

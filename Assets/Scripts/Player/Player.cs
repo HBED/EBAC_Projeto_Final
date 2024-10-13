@@ -36,7 +36,7 @@ public class Player : Singleton<Player> //, IDamageable
     public List<FlashColor> FlashColors;
 
     [Space]
-    [SerializeField] private ClothChanger _clothChanger;
+    public ClothChanger clothChanger;
 
     public HealthBase healthBase;
 
@@ -50,6 +50,11 @@ public class Player : Singleton<Player> //, IDamageable
         healthBase.OnKill += OnKill;
     }
 
+    private void Start()
+    {
+        Respawn();
+    }
+
     private void OnValidate()
     {
         if (healthBase == null) healthBase = GetComponent<HealthBase>();
@@ -57,7 +62,6 @@ public class Player : Singleton<Player> //, IDamageable
 
     void Update()
     {
-
         var inputAxisVertical = Input.GetAxis("Vertical");
         var speedVector = transform.forward * inputAxisVertical * speed;
 
@@ -112,13 +116,10 @@ public class Player : Singleton<Player> //, IDamageable
             if (Input.GetKeyDown(gun1KeyCode))
             {
                 playerAbilityShoot.TradeGun(gunInvetory[0]);
-                Debug.Log("apertou 1");
-
             }
 
             if (Input.GetKeyDown(gun2KeyCode))
             {
-                Debug.Log("apertou 2");
                 playerAbilityShoot.TradeGun(gunInvetory[1]);
             }
 
@@ -209,9 +210,9 @@ public class Player : Singleton<Player> //, IDamageable
 
     IEnumerator ChangeTextureCoroutine(ClothSetup setup, float duration)
     {
-        _clothChanger.ChangeTexture(setup);
+        clothChanger.ChangeTexture(setup);
         yield return new WaitForSeconds(duration);
-        _clothChanger.ResetTexture();
+        clothChanger.ResetTexture();
     }
 }
 
