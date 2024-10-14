@@ -28,7 +28,7 @@ namespace Itens
         private void LoadItemsFromSave()
         {
             AddByType(ItemType.COIN, (int) SaveManager.Instance.Setup.coins);
-            AddByType(ItemType.LIFE_PACK, (int) SaveManager.Instance.Setup.health);
+            AddByType(ItemType.LIFE_PACK, (int) SaveManager.Instance.Setup.lifePack);
         }
 
         private void Reset()
