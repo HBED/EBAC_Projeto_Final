@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 5875096693477872712}
   - component: {fileID: 5875096693477872711}
   m_Layer: 0
-  m_Name: Coin
+  m_Name: PFB_Coin
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -45,11 +45,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 101bd09f77de65b41ad301abd269df85, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sfxType: 1
   itemType: 0
   compareTag: Player
   particleSystem: {fileID: 0}
   timeToHide: 3
   graphicItem: {fileID: 2358310838088167278}
+  collider: {fileID: 0}
   audioSource: {fileID: 0}
 --- !u!135 &5875096693477872711
 SphereCollider:

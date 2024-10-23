@@ -74,7 +74,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 57a718c3edee7d8439d2708b7dc34772, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sfxType: 2
   prefabProjectile: {fileID: 1982353987031965704, guid: 9e88a1c5f73e9dc4dacf1202ff77f100, type: 3}
   positionToShoot: {fileID: 9126732498489284714}
   timeBetweenShoot: 0.3
   speed: 50
+  audioSource: {fileID: 0}

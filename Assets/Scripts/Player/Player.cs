@@ -6,9 +6,11 @@ using Cloth;
 
 public class Player : Singleton<Player> //, IDamageable
 {
+
     public PlayerSM playerSM;
     public Animator animator;
     public List<Collider> colliders;
+    public SFXType sfxType;
 
     public ParticleSystem jetParticles;
     public PlayerAbilityShoot playerAbilityShoot;
@@ -78,6 +80,7 @@ public class Player : Singleton<Player> //, IDamageable
                 vSpeed = 0;
                 if (Input.GetKeyDown(jumpKeyCode))
                 {
+                    SFXPool.Instance.Play(sfxType);
                     vSpeed = jumpSpeed;
 
                     if (!_jumping)

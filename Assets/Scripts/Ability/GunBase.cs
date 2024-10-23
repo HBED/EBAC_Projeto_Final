@@ -4,11 +4,15 @@ using UnityEngine;
 
 public class GunBase : MonoBehaviour
 {
+    public SFXType sfxType;
     public ProjectileBase prefabProjectile;
 
     public Transform positionToShoot;
     public float timeBetweenShoot = .3f;
     public float speed = 50f;
+
+    [Header("Sounds")]
+    public AudioSource audioSource;
 
     private Coroutine _currentCoroutine;
 
@@ -21,15 +25,20 @@ public class GunBase : MonoBehaviour
         }
     }
 
+    private void PlaySFX()
+    {
+        SFXPool.Instance.Play(sfxType);
+    }
 
     public virtual void Shoot()
     {
+        if (audioSource != null) audioSource.Play();
+        PlaySFX();
         var projectile = Instantiate(prefabProjectile);
         projectile.transform.position = positionToShoot.position;
         projectile.transform.rotation = positionToShoot.rotation;
         projectile.speed = speed;
     }
-
 
     public void StartShoot()
     {

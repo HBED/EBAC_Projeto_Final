@@ -120,6 +120,8 @@
     <Compile Include="Assets\Scripts\Item\ItemCollectableCoin.cs" />
     <Compile Include="Assets\Scripts\Cloth\ClothManager.cs" />
     <Compile Include="Assets\Scripts\Actions\ActionLifePack.cs" />
+    <Compile Include="Assets\Scripts\Sound\MusicPlayer.cs" />
+    <Compile Include="Assets\Scripts\Sound\SFXPool.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
@@ -129,6 +131,7 @@
      <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
+     <None Include="Assets\StreamingAssets\save.txt" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
      <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader" />

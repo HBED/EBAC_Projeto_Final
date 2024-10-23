@@ -8,6 +8,7 @@ public class HealthBase : MonoBehaviour, IDamageable
     public float startLife = 10f;
     public bool destroyOnKill = false;
     public float currentLife;
+    public SFXType sfxType;
 
     public Action<HealthBase> OnDamage;
     public Action<HealthBase> OnKill;
@@ -59,7 +60,7 @@ public class HealthBase : MonoBehaviour, IDamageable
     {
 
         currentLife -= f * damageMultiply;
-
+        SFXPool.Instance.Play(sfxType);
         if (currentLife <= 0)
         {
             Kill();
